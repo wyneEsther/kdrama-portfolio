@@ -1,28 +1,17 @@
-// src/data/dramas.js
-export const DRAMA_DATA = [
+export const dramas = [
   {
-    id: 1,
-    title: "Vincenzo",
-    category: "Action",
-    image: "https://bit.ly/vincenzo-img", // Use a real URL later
-    location: "Seoul Plaza",
-    desc: "A mafia lawyer gives a conglomerate a taste of its own medicine."
+    id:1,
+    title:"Goblin",
+    image:"https://www.pheurontay.com/wp-content/uploads/2017/01/jumunjin-in-drama.jpg",
+    description:"A goblin, who needs a human bride to end his immortal life, meets a high school student who can see ghosts. Together, they embark on a journey to find the goblin's bride and uncover the mysteries of their intertwined destinies.",
+    category:"Fantasy, Romance",
+
   },
   {
-    id: 2,
-    title: "Goblin",
-    category: "Fantasy",
-    image: "https://bit.ly/goblin-img",
-    location: "Quebec, Canada",
-    desc: "An immortal guardian needs a human bride to end his life."
-  },
-  {
-    id: 3,
-    title: "Crash Landing on You",
-    category: "Romance",
-    image: "https://bit.ly/cloy-img",
-    location: "Seoul, South Korea",
-    desc: "A South Korean heiress accidentally paraglides into North Korea."    
+    id:2,
+    title:"Crash Landing on You",
+    image:"https://m.media-amazon.com/images/M/MV5BZjM3ZGQ4ZTMtOTNjMS00NmJlLTljMWUtNWExMzJhMGJlMWNiXkEyXkFqcGc@._V1_.jpg",
+    description:"A South Korean heiress accidentally paraglides into North Korea and meets a North Korean army officer. As they navigate their dangerous circumstances, they develop a deep bond that transcends borders and political tensions.",
+    category:"Romance, Drama",
   }
- 
-];
+]
